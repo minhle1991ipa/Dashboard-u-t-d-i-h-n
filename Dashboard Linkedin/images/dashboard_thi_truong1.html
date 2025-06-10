@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Dashboard Thị Trường</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { font-size: 28px; }
+        h2 { color: #333; margin-top: 40px; }
+        img { max-width: 100%; height: auto; border: 1px solid #ccc; margin-bottom: 20px; }
+        ul.toc { list-style-type: none; padding: 0; }
+        ul.toc li { margin: 8px 0; }
+        ul.toc li a { text-decoration: none; color: #1a73e8; }
+        ul.toc li a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <h1>Dashboard Thị Trường</h1>
+
+    <!-- Mục lục -->
+    <h2>Mục lục</h2>
+    <ul class="toc">
+        <li><a href="#tygia">1️⃣ Tỷ giá USD VND vs. VNINDEX</a></li>
+        <li><a href="#laisuat">2️⃣ Lãi suất liên ngân hàng qua đêm vs. VNINDEX</a></li>
+        <li><a href="#ep">3️⃣ Tương quan E/P & Lãi suất 12 tháng vs. VNINDEX</a></li>
+        <li><a href="#pe">4️⃣ Định giá P/E VNINDEX</a></li>
+        <li><a href="#boxplot">5️⃣ Tỷ trọng cổ phiếu các quỹ mở</a></li>
+        <li><a href="#nganh">6️⃣ Tỷ trọng theo ngành</a></li>
+        <li><a href="#topholding">7️⃣ Top holding các quỹ mở</a></li>
+    </ul>
+
+    <!-- Các mục dashboard -->
+
+    <h2 id="tygia">1️⃣ Tỷ giá USD VND vs. VNINDEX</h2>
+    <img src="images/ty_gia_usd.png" alt="Tỷ giá USD VND vs. VNINDEX">
+
+    <h2 id="laisuat">2️⃣ Lãi suất liên ngân hàng qua đêm vs. VNINDEX</h2>
+    <img src="images/lai_suat_on.png" alt="Lãi suất ON vs. VNINDEX">
+
+    <h2 id="ep">3️⃣ Tương quan E/P & Lãi suất 12 tháng vs. VNINDEX</h2>
+    <img src="images/ep_lai_suat.png" alt="EP vs Lãi suất 12T vs VNINDEX">
+
+    <h2 id="pe">4️⃣ Định giá P/E VNINDEX</h2>
+    <img src="images/pe_vnindex.png" alt="Định giá PE VNINDEX">
+
+    <h2 id="boxplot">5️⃣ Tỷ trọng cổ phiếu các quỹ mở</h2>
+    <img src="images/boxplot_ty_trong.png" alt="Boxplot tỷ trọng cổ phiếu các quỹ mở">
+
+    <h2 id="nganh">6️⃣ Tỷ trọng theo ngành</h2>
+    <img src="images/ty_trong_nganh.png" alt="Tỷ trọng theo ngành">
+
+    <h2 id="topholding">7️⃣ Top holding các quỹ mở</h2>
+    <img src="images/top_holding.png" alt="Top holding các quỹ mở">
+
+</body>
+</html>
